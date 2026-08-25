@@ -1,9 +1,8 @@
 class Solution {
 public:
     int missingMultiple(vector<int>& nums, int k) {
-        //sort(nums.begin(),nums.end());
-        if(nums.size()==1 && k==nums[0])
-        return k*2;
+        // if(nums.size()==1 && k==nums[0])
+        // return k*2;
         int j;
         for( j=1;j<=nums.size();j++)
         {
