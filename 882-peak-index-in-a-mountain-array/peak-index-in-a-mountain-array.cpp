@@ -7,7 +7,7 @@ public:
         while(l<r)
         {
             int mid=l-(l-r)/2;
-            if(nums[mid]<nums[mid+1] && mid+1<=nums.size()-1)
+            if(nums[mid]<nums[mid+1])
             {
                 l=mid+1;
             }
