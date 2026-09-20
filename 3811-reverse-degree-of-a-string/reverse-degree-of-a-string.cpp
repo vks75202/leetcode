@@ -1,7 +1,6 @@
 class Solution {
 public:
     int reverseDegree(string s) {
-        vector<int> count(26,0);
         long long ans=0;
         for(int i=0;i<s.size();i++)
         {
